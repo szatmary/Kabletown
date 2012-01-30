@@ -11,9 +11,6 @@ QMAKE_RESOURCE_FLAGS += -threshold 0 -compress 9
 TARGET = "Kabletown"
 TEMPLATE = app
 
-#DEFINES += FOR_APP_STORE USE_NO_RECEIPT
-
-
 CONFIG += x86
 CONFIG -= x86_64
 CONFIG += release

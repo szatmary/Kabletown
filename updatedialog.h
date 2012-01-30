@@ -1,6 +1,12 @@
+/*
+    (C) 2012 Matthew Szatmary <szatmary@gmail.com>
+    This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+    To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to
+    Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+*/
+
 #ifndef UPDATEDIALOG_H
 #define UPDATEDIALOG_H
-#ifndef FOR_APP_STORE
 
 #include <QFile>
 #include <QDialog>
@@ -50,5 +56,4 @@ private:
     QNetworkAccessManager m_nam;
 };
 
-#endif // FOR_APP_STORE
 #endif // UPDATEDIALOG_H

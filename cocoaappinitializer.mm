@@ -1,5 +1,4 @@
 #include "cocoaappinitializer.h"
-//#include <AppKit/AppKit.h>
 #include <Cocoa/Cocoa.h>
 
 class CocoaAppInitializer::Private {
