@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Charts</class>
+ <widget class="QWidget" name="Charts">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>390</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Charts</string>
+  </property>
+  <widget class="QPushButton" name="prev">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Previous Month</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Next Month</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="month">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>111</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>January</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>February</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>March</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>April</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>May</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>June</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>July</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>August</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>September</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>October</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>November</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>December</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QSpinBox" name="year">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="this_month">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>This Month</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="redAlert">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>360</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> Red Alert</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="yellowAlert">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>360</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Yellow Alert</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="estimated">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>360</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Estimated</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="throbber">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>360</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Graph" name="mychart" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>600</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msg">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>360</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;a href=&quot;http://tisza.co/Tisza_LLC/Kabletown_FAQ.html&quot;&gt;Not enough data available to display chart.&lt;/a&gt;</string>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Graph</class>
+   <extends>QWidget</extends>
+   <header>graph.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

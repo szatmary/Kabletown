@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>green.png</file>
+        <file>red.png</file>
+        <file>yellow.png</file>
+        <file>unknown.png</file>
+        <file>error.png</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>throbber.gif</file>
+        <file>icon.png</file>
+    </qresource>
+</RCC>
