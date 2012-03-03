@@ -60,9 +60,6 @@ win32{
 }
 
 mac{
-    #For Snow Leopard
-#    QMAKE_MAC_SDK = /Developer/SDKs/MacOSX10.6.sdk
-
     OBJECTIVE_SOURCES += \
     cocoaappinitializer.mm
 
@@ -72,9 +69,7 @@ mac{
     LIBS += -framework Foundation -framework CoreServices -framework IOKit -framework Security -lcrypto
 
     OTHER_FILES += \
-        Info.plist \
-        product_definition.plist \
-        deploy_appstore.sh
+        Info.plist
 
     ICON = icon.icns
     QMAKE_INFO_PLIST = Info.plist

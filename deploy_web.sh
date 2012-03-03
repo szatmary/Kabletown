@@ -1,8 +1,6 @@
 #!/bin/sh
-rm -r ./Kabletown.app
-/usr/local/Trolltech/Qt-4.8.0/bin/qmake kabletown.pro
-make
-make clean
-rm Makefile
-/usr/local/Trolltech/Qt-4.8.0/bin/macdeployqt ./Kabletown.app
-/Developer/usr/bin/packagemaker --doc installer.pmdoc -o Kabletown.pkg
+rm -r ./Kabletown.app Kabletown.pkg Kabletown.dmg
+qmake kabletown.pro && make
+macdeployqt ./Kabletown.app -dmg
+# /Developer/usr/bin/packagemaker --doc installer.pmdoc -o Kabletown.pkg
+make clean && rm Makefile && rm -r ./Kabletown.app

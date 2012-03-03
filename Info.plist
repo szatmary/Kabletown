@@ -32,7 +32,5 @@
     <true/>
     <key>NSHumanReadableCopyright</key>
     <string>Copyright © 2010-2011 Tisza LLC. All rights reserved.</string>
-    <key>ForAppStore</key>
-    <string>yes</string>
 </dict>
 </plist>

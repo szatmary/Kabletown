@@ -1,0 +1,18 @@
+Kabletown 2.0 (open source)
+
+Released 3/3/2012
+
+This is the first open source release of Kabletown. The code had to modified extensively prior to opensourceing to remove features required for the Mac App Store as well as license key validation.
+
+The code does compile on my machiene (Qt Creator 2.4; Qt 4.8.0; Mac OS X 10.7.2), It may compile on other platforms but has not been tested.
+
+Sence I no longer have a residential Comcast internet account, the functionality of the version is untested on every platform. 
+
+Binaries are available for Mac and Windows
+
+
+To BUild on Mac:
+Instll the XCode
+Install the QT SDK
+the run ./deploy_web (NOTE: you MAY need to run as sudo)
+
